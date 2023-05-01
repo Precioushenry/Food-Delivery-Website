@@ -41,10 +41,11 @@
 .c{
     width:250px
 }
-.s{
-    width:200px;
+.s1{
+    width:250px;
+    margin-top: 5px;
     color:white
-    padding:5px;
+    padding:25px;
     background-color: #EFAB68;
     border: none;
 }
@@ -61,6 +62,8 @@
 }
 .text1{
     text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
 }
 .menu{
     text-align: center;
@@ -114,6 +117,11 @@
     text-decoration: none;
     color:#EFAB68;
 }
+.gyro{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
 
 .p{
     display: flex;
@@ -132,14 +140,15 @@
     background-color: black;
     text-align: center;
     border: none;
-    
+}
+.s{
+    margin-left: 40px;
+    margin-top: 10px;
 }
 .h5{
     color: white;
 }
-.subscribe{
-    
-}
+
 @media screen and (min-width: 1024px) {
     .fastest{
         text-align: left;
@@ -199,10 +208,15 @@
         flex-direction: row;
         justify-content: space-around;
         border-radius: 15px;
+        margin-bottom: 20px;
+        background-color: white;
         
     }
     .gyro{
         border-radius: 15px;
+        background-color: whitesmoke;
+        
+        
     }
     .images2{
         display: flex;
@@ -213,12 +227,14 @@
         width:300px
     }
     .s{
-        width:200px;
+        width:500px;
         color:white
         padding: 25px;
-        background-color: #EFAB68;
+        background-color: 
         border: none;
-        color: white;
+        display: flex;
+        gap: 50px;
+        
     }
     .subscribe{
         margin-top: 200px;
@@ -243,6 +259,14 @@
     .insr{
         display: flex;
         justify-content: space-between;
+    }
+    .s1{
+        width:300px;
+        margin-top: 5px;
+        color:white;
+        padding: 10px;
+        background-color: #EFAB68;
+        border: none;
     }
 }
     
