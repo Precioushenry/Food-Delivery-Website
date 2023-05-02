@@ -25,6 +25,18 @@
     margin-right: 20px;
 
 }
+.s1{
+    color: white;
+    width: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.c{
+    width: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
 
 .btn{
     background-color: #F48E28;
@@ -83,6 +95,7 @@
     margin-top: 10px;
     
 }
+
 
 .list{
     list-style: none;
@@ -152,6 +165,14 @@
 }
 .h5{
     color: white;
+}
+.insr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logos{
+    width: 100px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -278,6 +299,9 @@
         padding: 10px;
         background-color: #EFAB68;
         border: none;
+    }
+    .ux{
+        
     }
 }
     
