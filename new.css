@@ -64,6 +64,9 @@
     text-align: center;
     background-color: whitesmoke;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .menu{
     text-align: center;
@@ -128,6 +131,7 @@
     justify-content: center;
     align-items: center;
      margin-top: 10px;
+     margin-bottom: 20px;
 }
 .sand{
     width: 100%;
@@ -140,6 +144,7 @@
     background-color: black;
     text-align: center;
     border: none;
+    margin-bottom: 20px;
 }
 .s{
     margin-left: 40px;
@@ -152,10 +157,12 @@
 @media screen and (min-width: 1024px) {
     .fastest{
         text-align: left;
+        font-size: xx-large;
     }
     .my-div{
         display: flex;
         justify-content: space-around;
+        
         
     }
     .top-bar{
@@ -163,7 +170,8 @@
         justify-content: flex-end;
         gap: 20px;
         list-style-type: none;
-        margin: 10px;
+    
+        margin-top: 0;
     }
     .link{
         text-decoration: none;
@@ -183,6 +191,7 @@
         display: flex;
         justify-content: left;
         float: left;
+        width: 500px;
 
     }
     .hero{
